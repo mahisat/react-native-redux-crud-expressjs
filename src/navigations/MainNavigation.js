@@ -6,6 +6,8 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {Icon} from 'native-base';
 import HomeScreen from '../screens/HomeScreen';
 import SettingsScreen from '../screens/SettingsScreen';
+import ListQuotes from '../screens/ListQuotes';
+import QuoteForm from '../screens/QuoteForm';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -13,14 +15,21 @@ const Tab = createBottomTabNavigator();
 export const HomeStack = () => {
   return (
     <Stack.Navigator
-      initialRouteName="Home"
+      initialRouteName="ListQuotes"
       screenOptions={{
         gestureEnabled: false,
         showIcon: true,
       }}>
       <Stack.Screen
-        name="Home"
-        component={HomeScreen}
+        name="ListQuotes"
+        component={ListQuotes}
+        options={{
+          headerShown: false,
+        }}
+      />
+      <Stack.Screen
+        name="QuoteForm"
+        component={QuoteForm}
         options={{
           headerShown: false,
         }}
