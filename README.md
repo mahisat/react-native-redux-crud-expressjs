@@ -1,6 +1,6 @@
-# react-native-redux-crud-expressjs
+# react-native-redux-example-crud
 
-Part 1 of the series consists of bottom tab navigation. Soon, I will create remaining things needed for react native redux crud application with express js backend
+Part 1 of the series consists of bottom tab navigation. Soon, I will create remaining things needed for react native redux crud application
 
 You can check the part 1 tutorial here https://mstechpro.in/react-native-redux-crud-part-1/
 
