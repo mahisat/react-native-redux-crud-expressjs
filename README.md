@@ -8,4 +8,10 @@ Created part2 of the tutorial which has how to configure react native redux setu
 
 You can check the part 2 tutorial here https://mstechpro.in/react-native-redux-crud-part-2/
 
+Created part 3 of the tutorial which has how to add react native redux crud operations
+
+You can check the part 3 tutorial here https://mstechpro.in/react-native-redux-example-crud-part-3/
+
+
+
 
